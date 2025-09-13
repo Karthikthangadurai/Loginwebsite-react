@@ -3,7 +3,6 @@ const cors = require("cors")
 
 //app config
 const app = express()
-const port = process.env.PORT || 4000;
 
 app.use(cors())
 
@@ -26,6 +25,6 @@ app.post("/login",function(req,res)
 })
 
 
-app.listen(port,function(){
+app.listen(3000,function(){
     console.log("Server Started.....")
 })
