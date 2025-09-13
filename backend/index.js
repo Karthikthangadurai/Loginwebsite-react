@@ -1,6 +1,9 @@
 const express = require("express")
 const cors = require("cors")
+
+//app config
 const app = express()
+const port = process.env.PORT || 4000;
 
 app.use(cors())
 
@@ -23,6 +26,6 @@ app.post("/login",function(req,res)
 })
 
 
-app.listen(3000,function(){
+app.listen(port,function(){
     console.log("Server Started.....")
 })

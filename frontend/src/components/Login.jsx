@@ -20,7 +20,7 @@ const Login = () => {
 
   function check()
   {
-    let logindetails = axios.post("http://localhost:3000/login", {"username":user,"password":pass})
+    let logindetails = axios.post("http://localhost:4000/login", {"username":user,"password":pass})
     logindetails.then(function(data){
         if(data.data === true)
         {
