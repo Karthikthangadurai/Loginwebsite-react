@@ -20,7 +20,7 @@ const Login = () => {
 
   function check()
   {
-    let logindetails = axios.post("https://loginwebsite-react-backend.onrender.com", {"username":user,"password":pass})
+    let logindetails = axios.post("https://loginwebsite-react-backend.onrender.com/login", {"username":user,"password":pass})
     logindetails.then(function(data){
         if(data.data === true)
         {
