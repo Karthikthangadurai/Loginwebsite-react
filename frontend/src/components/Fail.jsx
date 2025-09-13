@@ -8,7 +8,7 @@ const Fail = () => {
         <h1>LOGIN FAILED</h1>
         <h2 className="text-yellow-500">Sorry😔,Incorrect mail id, password.</h2>
         <p>Please Enter Correct mail id, password✅</p>
-        <form action="https://loginwebsite-react-frontend.onrender.com">
+        <form action="https://loginwebsite-react-frontend.onrender.com/">
         <button className="bg-green-200 text-purple-700 font-semibold mt-6 p-2 border rounded-lg">🔙 Go Home</button>
         </form>
     </div>
